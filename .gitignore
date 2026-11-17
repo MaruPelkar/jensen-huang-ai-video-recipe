@@ -1,0 +1,8 @@
+.env
+.env.*
+request.local.json
+*.mp4
+*.mov
+*.webm
+__pycache__/
+.DS_Store

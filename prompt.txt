@@ -1,0 +1,18 @@
+Use the supplied video as the reference for this two-person performance.
+
+Person A replaces the singer on the viewer's LEFT holding the microphone.
+Person A's first photo is the full-body appearance reference.
+Person A's second photo is the face close-up.
+
+Person B replaces the performer on the viewer's RIGHT playing the electronic drum pad.
+Person B's first photo is the full-body appearance reference.
+Person B's second photo is the face close-up.
+
+Keep each identity assigned to its role throughout. Preserve the reference performance,
+framing, camera movement, timing, background, microphone and drum pad.
+Use the replacement people's appearance from their photos, with consistent faces,
+hair, clothing and proportions throughout. Keep hand movements and drumstick contact
+coherent. Do not swap roles, merge faces or add extra performers.
+
+Audio is controlled separately: keep_original_sound must be true to retain the
+reference soundtrack. This is an AI-edited recreation.

@@ -1,0 +1,28 @@
+Use the Singing Duo recipe in this repository with Affogato.
+
+Read README.md, reference.json, request.json and prompt.txt first.
+Use the connected Affogato MCP server at https://api.affogato.ai/mcp.
+Check the current tool schemas instead of inventing arguments.
+
+Use the video_url in reference.json as the performance reference.
+Upload/import it and the four photos through the supported file tool.
+If local uploads are unavailable in this client, ask me to upload through Affogato;
+never pretend a local path is an uploaded file ID.
+
+My first two photos are the singer's full-body photo and face close-up.
+My next two photos are the drum-pad player's full-body photo and face close-up.
+Singer = viewer's LEFT with microphone.
+Drum-pad player = viewer's RIGHT with electronic drum pad.
+
+Fill request.json with the returned file IDs, retain the grouped subject mapping,
+and keep_original_sound=true. Use the cast_swap tool with its current schema.
+Read the live pricing/estimate tools. If a quote cannot be obtained for this studio,
+say so and ask for a budget before spending; do not invent a price or send this
+studio request blindly to a model-estimate endpoint with a different schema.
+
+Show the intended inputs and cost, and obtain my go-ahead before the paid call.
+Generate once, then follow that generation to completion. Do not resubmit a paid
+request because a wait timed out. Report failures; do not retry paid generations
+without approval. Return the output link and reported credits charged.
+Explain that this retains the source audio, not the replacement people's voices.
+Label the output AI-edited and don't claim the recipe author made the source meme.

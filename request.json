@@ -1,0 +1,28 @@
+{
+  "source_video_file": "<REFERENCE_VIDEO_FILE_ID>",
+  "subjects": [
+    {
+      "photos": [
+        "<SINGER_FULL_BODY_FILE_ID>",
+        "<SINGER_FACE_FILE_ID>"
+      ],
+      "kind": "person",
+      "label": "Singer",
+      "slot": "left",
+      "placement": "The seated performer on the viewer's left holding the microphone."
+    },
+    {
+      "photos": [
+        "<DRUMMER_FULL_BODY_FILE_ID>",
+        "<DRUMMER_FACE_FILE_ID>"
+      ],
+      "kind": "person",
+      "label": "Drum-pad player",
+      "slot": "right",
+      "placement": "The seated performer on the viewer's right playing the electronic drum pad."
+    }
+  ],
+  "notes": "Use the supplied video as the reference for this two-person performance.\n\nPerson A replaces the singer on the viewer's LEFT holding the microphone.\nPerson A's first photo is the full-body appearance reference.\nPerson A's second photo is the face close-up.\n\nPerson B replaces the performer on the viewer's RIGHT playing the electronic drum pad.\nPerson B's first photo is the full-body appearance reference.\nPerson B's second photo is the face close-up.\n\nKeep each identity assigned to its role throughout. Preserve the reference performance,\nframing, camera movement, timing, background, microphone and drum pad.\nUse the replacement people's appearance from their photos, with consistent faces,\nhair, clothing and proportions throughout. Keep hand movements and drumstick contact\ncoherent. Do not swap roles, merge faces or add extra performers.\n\nAudio is controlled separately: keep_original_sound must be true to retain the\nreference soundtrack. This is an AI-edited recreation.\n",
+  "resolution": "720p",
+  "keep_original_sound": true
+}
